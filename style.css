@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: 	#8D9199;
+}
+
+
+@font-face {
+    font-family: montserrat;
+    src: url("fonts/montserrat/static/Montserrat-Medium.ttf");
+    }
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url("fonts/montserrat/static/Montserrat-Bold.ttf");
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a.nav-link:hover{
+    color: #2C313D;
+    background-color: #8D9199;
+    font-family: montserrat-bold;
+    border-bottom: 1px #8D9199 solid;
+}
+    .nav-link:hover #account-icon{
+        content: url(imgs/account-black.svg);      
+    }
+
+.header-wrap {
+    height: 55px;
+    border-bottom: 1px rgb(252, 0, 0) solid ;
+    background-color:#2C313D;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#main-logo {
+    rotate: 345deg;
+    position: relative;
+    bottom: -15px;
+}
+    
+#account-icon{
+    margin-left: 10px;
+}
+
+.navigation {
+    display: flex;
+}
+
+
+.nav-link{
+    border: 1px rebeccapurple solid;
+    margin: 0 10px 0 40px;
+    padding: 0 15px 0 15px;
+    font-family: montserrat-bold;
+    display: flex;
+    align-items: center;
+    }
+
+
+
+    /* login form */
+    .swipe-login-form{
+        
+    }
