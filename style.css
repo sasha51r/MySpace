@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: 	#8D9199;
+    background-color: #8D9199;
 }
 
 
@@ -35,7 +35,7 @@ a.nav-link:hover{
     }
 
 .header-wrap {
-    height: 55px;
+    height: 50px;
     border-bottom: 1px rgb(252, 0, 0) solid ;
     background-color:#2C313D;
     display: flex;
@@ -60,7 +60,7 @@ a.nav-link:hover{
 
 .nav-link{
     border: 1px rebeccapurple solid;
-    margin: 0 10px 0 40px;
+
     padding: 0 15px 0 15px;
     font-family: montserrat-bold;
     display: flex;
