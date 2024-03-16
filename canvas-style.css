@@ -1,0 +1,38 @@
+body{
+    background-color: #333333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border-box  ;
+}
+
+
+.menu {
+height: 60px;
+border: 1px solid rgb(0, 225, 255);
+}
+
+.toolbar {
+height: 30px;
+border: 1px solid yellow;
+}
+
+.mainfield {
+    display:inline-flex;
+    height:1000px;
+    border: 1px solid rgb(255, 0, 0);
+    }
+
+
+    #workspace{
+        border: 1px solid rgb(0, 225, 255);
+        background-image: url(imgs/back-canvas1.svg);
+    }
+    .library{
+        border: 1px solid rgb(72, 255, 0);
+        min-height: 100px;
+        max-height: 100%;
+        width: 200px;
+        
+    }

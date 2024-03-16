@@ -30,13 +30,14 @@ a.nav-link:hover{
     font-family: montserrat-bold;
     border-bottom: 1px #8D9199 solid;
 }
+
     .nav-link:hover #account-icon{
         content: url(imgs/account-black.svg);      
     }
 
 .header-wrap {
     height: 50px;
-    border-bottom: 1px rgb(252, 0, 0) solid ;
+
     background-color:#2C313D;
     display: flex;
     justify-content: space-around;
@@ -44,9 +45,9 @@ a.nav-link:hover{
 }
 
 #main-logo {
-    rotate: 345deg;
+    rotate: 0;
     position: relative;
-    bottom: -15px;
+    bottom: -25px;
 }
     
 #account-icon{
@@ -59,17 +60,13 @@ a.nav-link:hover{
 
 
 .nav-link{
-    border: 1px rebeccapurple solid;
-
     padding: 0 15px 0 15px;
     font-family: montserrat-bold;
     display: flex;
     align-items: center;
+    border: 1px solid red;
     }
 
-
-
-    /* login form */
-    .swipe-login-form{
-        
-    }
+#settings, #lang {
+    border: 1px solid red;
+}
